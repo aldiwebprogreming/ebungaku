@@ -70,7 +70,42 @@
                 </div>
             </div>
         </div>
-        
+
+        <div class="row">
+            <div class="col-sm-4">
+                    <div class="product-image">
+                        <a href="{{ url('product/cat-'.$subKategori -> slug.'/area-all') }}">
+                            <img src="<?= base_url() ?>assets/img/buket.png" alt="Produce Images"></a>
+                        <span class="label">30% Off</span>
+                        <div class="product-action">
+                            <a href="" class="quick-view" data-toggle="modal" data-target="#exampleModalCenter"><i class="ion-ios-search"></i></a>
+                        </div>
+
+                    </div>
+            </div>
+
+            <div class="col-sm-4">
+                    <div class="product-image">
+                        <a href="{{ url('product/cat-'.$subKategori -> slug.'/area-all') }}">
+                            <img src="<?= base_url() ?>assets/img/buket.png" alt="Produce Images"></a>
+                        <span class="label">30% Off</span>
+                        <div class="product-action">
+                            <a href="{{ url('product/cat-'.$subKategori -> slug.'/area-all') }}" class="quick-view" data-toggle="modal" data-target="#exampleModalCenter"><i class="ion-ios-search"></i></a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-4">
+                    <div class="product-image">
+                        <a href="{{ url('product/cat-'.$subKategori -> slug.'/area-all') }}">
+                            <img src="<?= base_url() ?>assets/img/buket.png" alt="Produce Images"></a>
+                        <span class="label">30% Off</span>
+                        <div class="product-action">
+                            <a href="{{ url('product/cat-'.$subKategori -> slug.'/area-all') }}" class="quick-view" data-toggle="modal" data-target="#exampleModalCenter"><i class="ion-ios-search"></i></a>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
 
       
         
